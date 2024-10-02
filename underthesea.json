@@ -1,0 +1,65 @@
+{
+    "name": "Under the Sea Theme",
+    "dataColors": [
+      "#1E90FF",  // Dodger Blue (Ocean Water)
+      "#20B2AA",  // Light Sea Green (Shallow Water)
+      "#FFD700",  // Gold (Sunlight Reflection)
+      "#FF6347",  // Tomato (Coral)
+      "#4682B4",  // Steel Blue (Deeper Water)
+      "#40E0D0",  // Turquoise (Tropical Sea)
+      "#FF4500",  // Orange Red (Sea Creatures)
+      "#2E8B57",  // Sea Green (Algae)
+      "#708090",  // Slate Gray (Rocks)
+      "#00CED1"   // Dark Turquoise (Marine Life)
+    ],
+    "background": "#F0F8FF",  // Alice Blue (Sky Reflection)
+    "foreground": "#000080",  // Navy (Deep Ocean Text)
+    "tableAccent": "#FF6347",  // Coral (Highlight/Accent Color)
+    "visualStyles": {
+      "header": {
+        "*": {
+          "fontSize": 14,
+          "fontFamily": "Arial",
+          "fontColor": "#000080",  // Navy
+          "background": "#F0F8FF",  // Alice Blue
+          "alignment": "Center"
+        }
+      },
+      "title": {
+        "*": {
+          "fontColor": "#1E90FF",  // Dodger Blue
+          "background": "#F0F8FF",  // Alice Blue
+          "fontFamily": "Georgia",
+          "fontSize": 20,
+          "alignment": "Center"
+        }
+      },
+      "card": {
+        "*": {
+          "labelColor": "#FF4500",  // Orange Red
+          "valueColor": "#4682B4",  // Steel Blue
+          "background": "#F0F8FF",  // Alice Blue
+          "fontFamily": "Arial"
+        }
+      },
+      "chart": {
+        "*": {
+          "titleColor": "#20B2AA",  // Light Sea Green
+          "background": "#F0F8FF",  // Alice Blue
+          "border": {
+            "color": "#000080",  // Navy
+            "weight": 1
+          }
+        }
+      },
+      "slicer": {
+        "*": {
+          "background": "#40E0D0",  // Turquoise
+          "fontColor": "#000080",  // Navy
+          "fontFamily": "Arial",
+          "selectionColor": "#FFD700"  // Gold
+        }
+      }
+    }
+  }
+  
